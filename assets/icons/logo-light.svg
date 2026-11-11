@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" width="220" height="48" role="img" aria-label="CUP2EAT">
+  <g fill="none" stroke="#F7F4E9" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 14h22l-3 20a4 4 0 0 1-4 3.4h-8A4 4 0 0 1 12 34z"/>
+    <path d="M13 21h14" opacity=".55"/>
+    <path d="M20 4c-2 2.5 2 4.5 0 7" opacity=".7"/>
+  </g>
+  <text x="44" y="34" font-family="Fraunces, Georgia, serif" font-size="29" font-weight="600" letter-spacing="1.5" fill="#F7F4E9">CUP<tspan fill="#C8A45D">2</tspan>EAT</text>
+</svg>

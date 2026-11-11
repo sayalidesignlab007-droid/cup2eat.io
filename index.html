@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CUP2EAT – Edible Cups | Eat Your Drink</title>
+  <meta name="description" content="CUP2EAT is an edible cups brand offering a more memorable, sustainability-minded way to enjoy your drink. Enquire for orders, events and bulk requirements.">
+  <meta name="theme-color" content="#092820">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CUP2EAT – Eat Your Drink.">
+  <meta property="og:description" content="Discover edible cups designed to make every sip more memorable.">
+  <meta property="og:image" content="assets/images/hero-cups.webp">
+  <meta property="og:site_name" content="CUP2EAT">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="assets/images/hero-cups-640.webp" imagesrcset="assets/images/hero-cups-640.webp 640w, assets/images/hero-cups.webp 1200w" imagesizes="(min-width: 900px) 560px, 92vw" fetchpriority="high">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap"></noscript>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- SVG icon sprite (Lucide-style, inlined to avoid extra network requests) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5M9 18h6M10 22h4"/></symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></symbol>
+    <symbol id="i-smile" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7z"/></symbol>
+    <symbol id="i-coffee" viewBox="0 0 24 24"><path d="M10 2v2M14 2v2M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+    <symbol id="i-utensils" viewBox="0 0 24 24"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2M7 2v20M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></symbol>
+    <symbol id="i-megaphone" viewBox="0 0 24 24"><path d="m3 11 18-5v12L3 14v-3zM11.6 16.8a3 3 0 1 1-5.8-1.6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- A. ANNOUNCEMENT BAR -->
+<div class="announce" role="note">
+  <p>Drink Smart. Eat Your Cup. Make a Difference.</p>
+</div>
+
+<!-- B. NAVIGATION -->
+<header class="site-header" id="siteHeader">
+  <div class="container nav">
+    <a href="#home" class="brand" aria-label="CUP2EAT – home">
+      <img class="logo-light" src="assets/icons/logo-light.svg" alt="CUP2EAT" width="176" height="38">
+      <img class="logo-dark" src="assets/icons/logo-dark.svg" alt="" width="176" height="38" aria-hidden="true">
+    </a>
+    <nav id="primaryNav" class="nav-links" aria-label="Primary">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Our Products</a></li>
+        <li><a href="#sustainability">Sustainability</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button type="button" class="btn btn-gold nav-cta-mobile" data-enquire>Order Now</button>
+    </nav>
+    <button type="button" class="btn btn-gold nav-cta" data-enquire>Order Now</button>
+    <button type="button" class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+      <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"/></svg>
+      <svg class="icon icon-close" aria-hidden="true"><use href="#i-x"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- C. HERO -->
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">The Future of Sustainable Drinking</p>
+      <h1 id="hero-title"><span class="nb">Your Drink.</span> <span class="nb">Your Cup.</span> <em>Your Planet.</em></h1>
+      <p class="lead">Discover a new way to enjoy your favourite drinks with edible cups designed to make every sip more memorable.</p>
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-gold">Explore Our Products <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <button type="button" class="btn btn-ghost" data-enquire>Order / Enquire Now</button>
+      </div>
+      <p class="hero-tag">CUP2EAT &middot; <span>Eat Your Drink.</span></p>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-frame">
+        <img src="assets/images/hero-cups-640.webp"
+             srcset="assets/images/hero-cups-640.webp 640w, assets/images/hero-cups.webp 1200w"
+             sizes="(min-width: 900px) 560px, 92vw"
+             width="1200" height="800" fetchpriority="high" decoding="async"
+             alt="Three edible cups on a wooden table: one filled with a latte, one with a bite taken out, and one empty">
+      </div>
+      <span class="hero-badge" aria-hidden="true"><svg class="icon"><use href="#i-leaf"/></svg> Edible Cups</span>
+    </div>
+  </div>
+</section>
+
+<!-- D. BRAND INTRODUCTION -->
+<section class="section intro" id="intro" aria-labelledby="intro-title">
+  <div class="container split">
+    <div class="split-media reveal">
+      <img src="assets/images/cups-beans.webp" width="900" height="600" loading="lazy" decoding="async"
+           alt="A group of edible cups filled with coffee and topped with cream, surrounded by coffee beans">
+    </div>
+    <div class="split-copy reveal">
+      <p class="eyebrow eyebrow-dark">The Idea</p>
+      <h2 id="intro-title">Not Just a Cup. A Better Experience.</h2>
+      <p>An edible cup changes what a drink feels like. Instead of finishing your drink and reaching for a bin, the cup becomes part of the moment.</p>
+      <ul class="tick-list">
+        <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span><strong>A unique drinking experience</strong> that guests remember and talk about.</span></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span><strong>An alternative to conventional disposable cups</strong> for people who want to try something different.</span></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span><strong>Designed around a more sustainable mindset</strong>, from the first sip to the last bite.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- E. OUR PRODUCTS -->
+<section class="section section-cream" id="products" aria-labelledby="products-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow eyebrow-dark">Our Products</p>
+      <h2 id="products-title">Meet Your Edible Cup.</h2>
+      <p class="section-sub">Product variants shown below are <strong>demo placeholders</strong>. Names, details and images will be replaced once CUP2EAT confirms its range.</p>
+    </header>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card-img"><img src="assets/images/gallery-plain.webp" width="600" height="769" loading="lazy" decoding="async" alt="A plain edible cup on a wooden surface"><span class="chip">Demo placeholder</span></div>
+        <div class="card-body">
+          <h3>Classic Edible Cup</h3>
+          <p>The everyday edible cup for hot or cold drinks.</p>
+          <p class="card-detail">Details: <span class="ph">To be confirmed by CUP2EAT</span></p>
+          <button type="button" class="btn btn-dark" data-enquire data-enquire-type="Product Enquiry" data-enquire-note="Classic Edible Cup">Enquire Now</button>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="card-img"><img src="assets/images/gallery-cream.webp" width="600" height="700" loading="lazy" decoding="async" alt="An edible cup topped with a swirl of cream"><span class="chip">Demo placeholder</span></div>
+        <div class="card-body">
+          <h3>Flavoured Edible Cup</h3>
+          <p>A cup with its own character, made to pair with your drink.</p>
+          <p class="card-detail">Flavours: <span class="ph">To be confirmed by CUP2EAT</span></p>
+          <button type="button" class="btn btn-dark" data-enquire data-enquire-type="Product Enquiry" data-enquire-note="Flavoured Edible Cup">Enquire Now</button>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="card-img"><img src="assets/images/gallery-espresso.webp" width="600" height="677" loading="lazy" decoding="async" alt="An edible cup filled with espresso beside coffee beans"><span class="chip">Demo placeholder</span></div>
+        <div class="card-body">
+          <h3>Custom Brand Cup</h3>
+          <p>Enquire about cups for your café, event or brand activation.</p>
+          <p class="card-detail">Options: <span class="ph">To be confirmed by CUP2EAT</span></p>
+          <button type="button" class="btn btn-dark" data-enquire data-enquire-type="Business Partnership" data-enquire-note="Custom Brand Cup">Enquire Now</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- F. HOW IT WORKS -->
+<section class="section" id="how" aria-labelledby="how-title">
+  <div class="container">
+    <header class="section-head center reveal">
+      <p class="eyebrow eyebrow-dark">How It Works</p>
+      <h2 id="how-title">An Experience Worth Sipping.</h2>
+    </header>
+    <ol class="steps">
+      <li class="step reveal">
+        <span class="step-num">01</span>
+        <span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#i-drop"/></svg></span>
+        <h3>Pour Your Favourite Drink</h3>
+      </li>
+      <li class="step reveal">
+        <span class="step-num">02</span>
+        <span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#i-coffee"/></svg></span>
+        <h3>Enjoy Every Sip</h3>
+      </li>
+      <li class="step reveal">
+        <span class="step-num">03</span>
+        <span class="step-icon"><svg class="icon" aria-hidden="true"><use href="#i-smile"/></svg></span>
+        <h3>Enjoy the Edible Cup</h3>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- G. WHY CUP2EAT -->
+<section class="section section-green" id="why" aria-labelledby="why-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow">Why CUP2EAT</p>
+      <h2 id="why-title">Small Cup. Big Idea.</h2>
+    </header>
+    <div class="why-grid">
+      <div class="why reveal"><svg class="icon" aria-hidden="true"><use href="#i-coffee"/></svg><h3>Edible Drinking Experience</h3><p>A cup you can enjoy along with your drink.</p></div>
+      <div class="why reveal"><svg class="icon" aria-hidden="true"><use href="#i-leaf"/></svg><h3>Eco-Conscious Concept</h3><p>Built around the idea of rethinking disposable cups.</p></div>
+      <div class="why reveal"><svg class="icon" aria-hidden="true"><use href="#i-bulb"/></svg><h3>Innovative Product Design</h3><p>A fresh take on something we use every day.</p></div>
+      <div class="why reveal"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg><h3>Memorable Customer Experience</h3><p>Something guests notice, photograph and remember.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- H. SUSTAINABILITY -->
+<section class="section sustain" id="sustainability" aria-labelledby="sustain-title">
+  <div class="container sustain-grid">
+    <div class="sustain-panel reveal" aria-hidden="true">
+      <svg class="icon icon-xl"><use href="#i-leaf"/></svg>
+      <p>Eat Your Drink.</p>
+    </div>
+    <div class="reveal">
+      <p class="eyebrow eyebrow-dark">Sustainability</p>
+      <h2 id="sustain-title">Rethinking the Way We Drink.</h2>
+      <p>Every day, countless drinks are served in cups that are used once and discarded. CUP2EAT starts from a simple question: what if the cup itself was part of the experience?</p>
+      <p>Our philosophy is to encourage a more thoughtful way to enjoy a drink, one that gets people talking about what they use and why.</p>
+      <p class="note">Detailed material, composition and environmental information will be shared by CUP2EAT directly. <button type="button" class="link-btn" data-enquire data-enquire-type="Product Enquiry">Ask us a question</button></p>
+    </div>
+  </div>
+</section>
+
+<!-- I. USE CASES -->
+<section class="section section-cream" id="use-cases" aria-labelledby="use-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow eyebrow-dark">Where You Can Use CUP2EAT</p>
+      <h2 id="use-title">Made for Moments Worth Sharing.</h2>
+    </header>
+    <ul class="use-grid">
+      <li class="use reveal"><svg class="icon" aria-hidden="true"><use href="#i-coffee"/></svg>Cafés and Restaurants</li>
+      <li class="use reveal"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Events and Exhibitions</li>
+      <li class="use reveal"><svg class="icon" aria-hidden="true"><use href="#i-briefcase"/></svg>Corporate Events</li>
+      <li class="use reveal"><svg class="icon" aria-hidden="true"><use href="#i-utensils"/></svg>Food Festivals</li>
+      <li class="use reveal"><svg class="icon" aria-hidden="true"><use href="#i-megaphone"/></svg>Brand Promotions</li>
+    </ul>
+    <div class="center reveal">
+      <button type="button" class="btn btn-dark" data-enquire data-enquire-type="Event / Corporate Enquiry">Let's Bring CUP2EAT to Your Event</button>
+    </div>
+  </div>
+</section>
+
+<!-- J. GALLERY -->
+<section class="section" id="gallery" aria-labelledby="gallery-title">
+  <div class="container">
+    <header class="section-head center reveal">
+      <p class="eyebrow eyebrow-dark">Gallery</p>
+      <h2 id="gallery-title">CUP2EAT in Action.</h2>
+    </header>
+    <ul class="gallery">
+      <li class="g g-tall reveal"><button type="button" class="g-btn" data-full="assets/images/gallery-latte.webp" data-alt="An edible cup filled with a latte topped with heart-shaped latte art"><img src="assets/images/gallery-latte.webp" width="600" height="753" loading="lazy" decoding="async" alt="An edible cup filled with a latte topped with heart-shaped latte art"><span class="sr-only">Open image</span></button></li>
+      <li class="g reveal"><button type="button" class="g-btn" data-full="assets/images/gallery-bitten.webp" data-alt="An edible cup with a bite taken out of its rim"><img src="assets/images/gallery-bitten.webp" width="600" height="884" loading="lazy" decoding="async" alt="An edible cup with a bite taken out of its rim"><span class="sr-only">Open image</span></button></li>
+      <li class="g reveal"><button type="button" class="g-btn" data-full="assets/images/gallery-cream.webp" data-alt="An edible cup topped with a swirl of cream"><img src="assets/images/gallery-cream.webp" width="600" height="700" loading="lazy" decoding="async" alt="An edible cup topped with a swirl of cream"><span class="sr-only">Open image</span></button></li>
+      <li class="g g-tall reveal"><button type="button" class="g-btn" data-full="assets/images/gallery-plain.webp" data-alt="A plain edible cup on a wooden table"><img src="assets/images/gallery-plain.webp" width="600" height="769" loading="lazy" decoding="async" alt="A plain edible cup on a wooden table"><span class="sr-only">Open image</span></button></li>
+      <li class="g reveal"><button type="button" class="g-btn" data-full="assets/images/gallery-espresso.webp" data-alt="An edible cup filled with espresso, with coffee beans beside it"><img src="assets/images/gallery-espresso.webp" width="600" height="677" loading="lazy" decoding="async" alt="An edible cup filled with espresso, with coffee beans beside it"><span class="sr-only">Open image</span></button></li>
+    </ul>
+  </div>
+</section>
+
+<!-- K. ABOUT -->
+<section class="section section-green" id="about" aria-labelledby="about-title">
+  <div class="container split split-reverse">
+    <div class="split-media reveal">
+      <img src="assets/images/gallery-latte.webp" width="600" height="753" loading="lazy" decoding="async" alt="A latte served in an edible cup">
+    </div>
+    <div class="split-copy reveal">
+      <p class="eyebrow">About the Brand</p>
+      <h2 id="about-title">An Idea That Makes Every Sip Different.</h2>
+      <p>CUP2EAT is an innovative edible cups brand. Our tagline says it simply: <strong>Eat Your Drink.</strong></p>
+      <p>The brand was founded by <strong>Varun Khera</strong>.</p>
+      <p class="ph-line">More about the brand's story can be added here once supplied by CUP2EAT.</p>
+    </div>
+  </div>
+</section>
+
+<!-- L. FEEDBACK -->
+<section class="section" id="feedback" aria-labelledby="feedback-title">
+  <div class="container">
+    <div id="testimonials" class="testimonials" hidden></div>
+    <div id="feedbackCta" class="feedback center reveal">
+      <h2 id="feedback-title">Have You Tried CUP2EAT?</h2>
+      <p>We'd love to hear how your experience was.</p>
+      <button type="button" class="btn btn-dark" data-enquire data-enquire-type="Other" data-enquire-note="Sharing my experience with CUP2EAT">Share Your Experience</button>
+    </div>
+  </div>
+</section>
+
+<!-- M. FAQ -->
+<section class="section section-cream" id="faq" aria-labelledby="faq-title">
+  <div class="container narrow">
+    <header class="section-head center reveal">
+      <p class="eyebrow eyebrow-dark">FAQ</p>
+      <h2 id="faq-title">Questions, Answered.</h2>
+    </header>
+    <div class="faq">
+      <div class="faq-item reveal">
+        <h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">What is CUP2EAT?<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button></h3>
+        <div class="faq-a" id="faq-a1" role="region" aria-labelledby="faq-q1"><div><p>CUP2EAT is an edible cups brand. Our tagline is "Eat Your Drink."</p></div></div>
+      </div>
+      <div class="faq-item reveal">
+        <h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">What are edible cups?<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button></h3>
+        <div class="faq-a" id="faq-a2" role="region" aria-labelledby="faq-q2"><div><p>Edible cups are cups designed so you can eat them after your drink. For details about ingredients, allergens, shelf life and storage, please contact CUP2EAT directly.</p></div></div>
+      </div>
+      <div class="faq-item reveal">
+        <h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">How can I place an order?<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button></h3>
+        <div class="faq-a" id="faq-a3" role="region" aria-labelledby="faq-q3"><div><p>Use the enquiry form on this page, message us on WhatsApp, or call or email us. The team will get back to you with availability and next steps.</p></div></div>
+      </div>
+      <div class="faq-item reveal">
+        <h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">Can businesses enquire about bulk orders?<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button></h3>
+        <div class="faq-a" id="faq-a4" role="region" aria-labelledby="faq-q4"><div><p>Yes, you can send a bulk enquiry. Choose "Bulk Order" in the enquiry form and tell us your requirement.</p></div></div>
+      </div>
+      <div class="faq-item reveal">
+        <h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">Can I contact CUP2EAT for event enquiries?<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button></h3>
+        <div class="faq-a" id="faq-a5" role="region" aria-labelledby="faq-q5"><div><p>Yes. Choose "Event / Corporate Enquiry" in the form and share a few details about your event.</p></div></div>
+      </div>
+      <div class="faq-item reveal">
+        <h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a6" id="faq-q6">How can I connect with the brand?<svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button></h3>
+        <div class="faq-a" id="faq-a6" role="region" aria-labelledby="faq-q6"><div><p>Reach us by phone, email, WhatsApp, or on Instagram at <a data-cfg-href="instagram" data-cfg="instagramHandle" target="_blank" rel="noopener">@cup2eat</a>.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- N. CONTACT -->
+<section class="section contact" id="contact" aria-labelledby="contact-title">
+  <div class="container contact-grid">
+    <div class="contact-info reveal">
+      <p class="eyebrow">Contact</p>
+      <h2 id="contact-title">Let's Talk Cups.</h2>
+      <p>Tell us what you need: a few cups to try, a bulk order or a full event. We'll take it from there.</p>
+      <ul class="contact-list">
+        <li><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><span><small>Phone</small><a data-cfg-href="tel" data-cfg="phoneDisplay">+91 00000 00000</a></span></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span><small>Email</small><a data-cfg-href="mail" data-cfg="email">demo@example.com</a></span></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg><span><small>Instagram</small><a data-cfg-href="instagram" data-cfg="instagramHandle" target="_blank" rel="noopener">@cup2eat</a></span></li>
+      </ul>
+      <a class="btn btn-whatsapp" data-wa target="_blank" rel="noopener" href="#"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg> Chat on WhatsApp</a>
+    </div>
+
+    <div class="form-wrap reveal">
+      <form class="enquiry-form" id="contactForm" novalidate>
+        <h3>Send an Enquiry</h3>
+        <div class="field">
+          <label for="cf-name">Full Name <span aria-hidden="true">*</span></label>
+          <input id="cf-name" name="name" type="text" autocomplete="name" required>
+          <p class="err" aria-live="polite"></p>
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="cf-phone">Phone Number <span aria-hidden="true">*</span></label>
+            <input id="cf-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required>
+            <p class="err" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="cf-email">Email <span aria-hidden="true">*</span></label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" required>
+            <p class="err" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="cf-type">Enquiry Type <span aria-hidden="true">*</span></label>
+            <select id="cf-type" name="type" required>
+              <option value="">Select…</option>
+              <option>Product Enquiry</option>
+              <option>Bulk Order</option>
+              <option>Event / Corporate Enquiry</option>
+              <option>Business Partnership</option>
+              <option>Other</option>
+            </select>
+            <p class="err" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="cf-qty">Quantity / Requirement</label>
+            <input id="cf-qty" name="quantity" type="text">
+            <p class="err" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="field">
+          <label for="cf-msg">Message</label>
+          <textarea id="cf-msg" name="message" rows="4"></textarea>
+          <p class="err" aria-live="polite"></p>
+        </div>
+        <button type="submit" class="btn btn-gold btn-block">Send Enquiry</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- O. FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="f-brand">
+      <img src="assets/icons/logo-light.svg" alt="CUP2EAT" width="176" height="38" loading="lazy">
+      <p class="f-tag">Eat Your Drink.</p>
+      <p>CUP2EAT is an edible cups brand, rethinking the way we drink.</p>
+    </div>
+    <nav aria-label="Footer">
+      <h2 class="f-title">Quick Links</h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Our Products</a></li>
+        <li><a href="#sustainability">Sustainability</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2 class="f-title">Get in Touch</h2>
+      <ul>
+        <li><a data-cfg-href="tel" data-cfg="phoneDisplay">+91 00000 00000</a></li>
+        <li><a data-cfg-href="mail" data-cfg="email">demo@example.com</a></li>
+        <li><a data-cfg-href="instagram" data-cfg="instagramHandle" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg> @cup2eat on Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container f-bottom">
+    <p>&copy; <span id="year">2026</span> CUP2EAT. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- WhatsApp floating button -->
+<a class="wa-float" data-wa target="_blank" rel="noopener" href="#" aria-label="Chat with CUP2EAT on WhatsApp">
+  <svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>
+</a>
+
+<!-- Order enquiry modal -->
+<div class="overlay" id="enquiryModal" hidden>
+  <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button type="button" class="dialog-close" data-close aria-label="Close enquiry form"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+    <form class="enquiry-form" id="modalForm" novalidate>
+      <h3 id="modal-title">Order Enquiry</h3>
+      <p class="modal-note" id="modalNote" hidden></p>
+      <div class="field">
+        <label for="mf-name">Full Name <span aria-hidden="true">*</span></label>
+        <input id="mf-name" name="name" type="text" autocomplete="name" required>
+        <p class="err" aria-live="polite"></p>
+      </div>
+      <div class="row2">
+        <div class="field">
+          <label for="mf-phone">Phone Number <span aria-hidden="true">*</span></label>
+          <input id="mf-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required>
+          <p class="err" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="mf-email">Email <span aria-hidden="true">*</span></label>
+          <input id="mf-email" name="email" type="email" autocomplete="email" required>
+          <p class="err" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="field">
+        <label for="mf-type">Enquiry Type <span aria-hidden="true">*</span></label>
+        <select id="mf-type" name="type" required>
+          <option value="">Select…</option>
+          <option>Product Enquiry</option>
+          <option>Bulk Order</option>
+          <option>Event / Corporate Enquiry</option>
+          <option>Business Partnership</option>
+          <option>Other</option>
+        </select>
+        <p class="err" aria-live="polite"></p>
+      </div>
+      <div class="field">
+        <label for="mf-qty">Quantity / Requirement</label>
+        <input id="mf-qty" name="quantity" type="text">
+        <p class="err" aria-live="polite"></p>
+      </div>
+      <div class="field">
+        <label for="mf-msg">Message</label>
+        <textarea id="mf-msg" name="message" rows="3"></textarea>
+        <p class="err" aria-live="polite"></p>
+      </div>
+      <button type="submit" class="btn btn-gold btn-block">Send Enquiry</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</div>
+
+<!-- Intro / offer popup (only shown if an offer is configured) -->
+<div class="overlay" id="offerModal" hidden>
+  <div class="dialog dialog-sm" role="dialog" aria-modal="true" aria-labelledby="offer-title">
+    <button type="button" class="dialog-close" data-close aria-label="Close"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+    <h3 id="offer-title"></h3>
+    <p id="offer-text"></p>
+    <button type="button" class="btn btn-gold btn-block" id="offerCta" data-enquire>Enquire Now</button>
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div class="overlay lightbox" id="lightbox" hidden>
+  <div class="dialog lb-dialog" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button type="button" class="dialog-close" data-close aria-label="Close image viewer"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+    <button type="button" class="lb-nav lb-prev" id="lbPrev" aria-label="Previous image"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+    <figure>
+      <img id="lbImg" src="" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button type="button" class="lb-nav lb-next" id="lbNext" aria-label="Next image"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+  </div>
+</div>
+
+<!-- Toasts -->
+<div class="toasts" id="toasts" aria-live="polite" aria-atomic="false"></div>
+
+<script src="js/config.js"></script>
+<script src="js/script.js" defer></script>
+</body>
+</html>
